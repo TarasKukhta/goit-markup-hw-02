@@ -1,6 +1,8 @@
 :root {
     --previous-color-text: #2E2F42;
     --secondary-color-text: #434455;
+    --button-color-text: #4D5AE5;
+    --button-color-bg: #F4F4FD;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -11,13 +13,15 @@ body{
 
 .link{text-decoration: none;}
 
-button{cursor: pointer;}
+.button{cursor: pointer;}
 
 .logo{
 font-family: 'Raleway',sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
+letter-spacing: 0.03em
+line-height: 1.17
 }
 
 .logo {
@@ -74,7 +78,14 @@ color: #FFFFFF;
 .hero{background-color:#2E2F42; ;}
 
 /*кнопка-головна*/
-.button-hero{color: #FFFFFF; background-color: #4D5AE5;}
+.button-hero{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+     background-color: #4D5AE5;}
 
 /*головний текст на банері*/
 .text-hero{color: #FFFFFF;
@@ -137,8 +148,15 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
-background: #2E2F42;}
+color: #F4F4FD;}
+
+.page-footer{
+    background-color: #2E2F42;
+}
+
+.logo-footer{
+    color: #F4F4FD;
+}
 
 /*кнопки-портфоліо*/
 
@@ -158,6 +176,25 @@ background: #2E2F42;}
         background-color: #F4F4FD;
 
 }
+
+.main-but-pf{
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: var(--button-color-text);
+        background-color: var(--button-color-bg);
+}
+
+.team-list-item{ background-color: #FFFFFF;
+
+}
+
 .main-but-pf:hover,
 .main-but-pf:focus{ color: #FFFFFF;
     background-color: #404BBF;}
