@@ -20,8 +20,8 @@ font-family: 'Raleway',sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-letter-spacing: 0.03em
-line-height: 1.17
+letter-spacing: 0.03em;
+line-height: 1.17;
 }
 
 .logo {
@@ -44,8 +44,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455
-}
+    color: #434455;}
 
 .menu-link{
 font-family: 'Roboto', sans-serif;
@@ -71,11 +70,10 @@ font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: #FFFFFF;
-}
+color: #FFFFFF;}
 
 /*секція-герой-головна*/
-.hero{background-color:#2E2F42; ;}
+.hero{background-color:#2E2F42;}
 
 /*кнопка-головна*/
 .button-hero{
@@ -99,8 +97,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;;
-}
+color: #2E2F42;}
 
 .text-minor{
 font-family: 'Roboto',sans-serif;
@@ -109,8 +106,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
-}
+color: #434455;}
 
 .our-works{
 font-family: 'Roboto', sans-serif;
@@ -121,8 +117,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
-}
+color: #2E2F42;}
 
 .text-main-team{
     font-family: 'Roboto',sans-serif;
@@ -133,12 +128,10 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
-}
+color: #2E2F42;}
 
 .main-team{
-    background: #F4F4FD;
-}
+    background: #F4F4FD;}
 
 /*текст футера*/
 .text-footer{
