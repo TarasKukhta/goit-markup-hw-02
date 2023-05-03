@@ -1,0 +1,172 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.list {list-style: none;}
+
+.link{text-decoration: none;}
+
+button{cursor: pointer;}
+
+.logo{
+font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+color: #2E2F42;}
+
+.menu-link{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;}
+
+.link:hover,
+.link:focus{color: #404BBF;}
+
+.button-hero:hover,
+.button-hero:focus{background-color: #404BBF; }
+
+.link{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455}
+
+.text-hero{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF;
+}
+
+/*секція-герой-головна*/
+.hero{background-color:#2E2F42; ;}
+
+/*кнопка-головна*/
+.button-hero{color: #FFFFFF; background-color: #4D5AE5;}
+
+/*головний текст на банері*/
+.text-hero{color: #FFFFFF;
+background-color: #2E2F42;}
+
+/*наш напрямок*/
+.text-main{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;;
+}
+
+.text-minor{
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.works{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.text-main-team{
+    font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.main-team{
+    background: #F4F4FD;
+}
+
+/*текст футера*/
+.text-footer{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+background: #2E2F42;}
+
+/*кнопки-портфоліо*/
+
+.button-pf{color: #4D5AE5;}
+.main-but{
+
+    font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background: #F4F4FD;
+        
+}
+.main-but-pf:hover,
+.main-but-pf:focus{ color: #FFFFFF; background: #404BBF;}
+
+/*кнопки-ордер-олл*
+.button-order-all{color: #FFFFFF;}
+
+
+
+/*заголовочний текст*
+.text-main 
+{ color: #2E2F42;}
+
+/*другорядний текст*
+.text-minor
+{ color: #434455;}
+
+
+
+/*[href] {color: #2E2F42;}
+[href="mailto:info@devstudio.com"]{color:#434455;}
+[href="tel:+110001111111"] { color: #434455;
+}
+/*селектор класу
+class="text-minor" це для тексту
+class="text-main" це для текст*/
+/* font-family: Roboto;
+ font-style:medium;
+ font-size: 16px;
+ line-height: 24px;
+ Letter spacing:2%;
