@@ -1,3 +1,7 @@
+:root {
+    --previous-color-text: navy-blue;
+    --secondary-color-text: slate;
+}
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -14,7 +18,6 @@ font-family: 'Raleway',sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.16;
 color: #2E2F42;}
 
 .logo {
@@ -26,6 +29,20 @@ color: #2E2F42;}
     color: #2E2F42;
 }
 
+.header-contact-list{
+    font-style:normal;
+}
+
+.contact-link{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+
+}
 
 .menu-link{
 font-family: 'Roboto', sans-serif;
@@ -34,7 +51,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;}
+color: #2e2f42;}
 
 .link:hover,
 .link:focus{color: #404BBF;}
@@ -93,7 +110,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.works{
+.our-works{
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -147,9 +164,9 @@ background: #2E2F42;}
         text-align: center;
         letter-spacing: 0.04em;
         color: #4D5AE5;
-        background: #F4F4FD;
-        
+        background-color: #F4F4FD;
+
 }
 .main-but-pf:hover,
-.main-but-pf:focus{ color: #FFFFFF; background: #404BBF;}
-
+.main-but-pf:focus{ color: #FFFFFF;
+    background-color: #404BBF;}
