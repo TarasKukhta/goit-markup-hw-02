@@ -17,6 +17,16 @@ font-size: 18px;
 line-height: 1.16;
 color: #2E2F42;}
 
+.logo {
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+.logo-st {
+    color: #2E2F42;
+}
+
+
 .menu-link{
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -143,30 +153,3 @@ background: #2E2F42;}
 .main-but-pf:hover,
 .main-but-pf:focus{ color: #FFFFFF; background: #404BBF;}
 
-/*кнопки-ордер-олл*
-.button-order-all{color: #FFFFFF;}
-
-
-
-/*заголовочний текст*
-.text-main 
-{ color: #2E2F42;}
-
-/*другорядний текст*
-.text-minor
-{ color: #434455;}
-
-
-
-/*[href] {color: #2E2F42;}
-[href="mailto:info@devstudio.com"]{color:#434455;}
-[href="tel:+110001111111"] { color: #434455;
-}
-/*селектор класу
-class="text-minor" це для тексту
-class="text-main" це для текст*/
-/* font-family: Roboto;
- font-style:medium;
- font-size: 16px;
- line-height: 24px;
- Letter spacing:2%;
