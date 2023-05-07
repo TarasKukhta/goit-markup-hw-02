@@ -13,7 +13,6 @@ body {
     color: var(--secondary-color-text);
     background-color: var(--main-background-color);
     }
-}
 .list {list-style: none;}
 
 .link{text-decoration: none;}
